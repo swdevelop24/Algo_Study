@@ -10,7 +10,6 @@ from collections import Counter
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         dictionary = {}
-        ret_value = False
 
         length = len(nums)
 
@@ -22,6 +21,6 @@ class Solution:
         
         for key, value in count_dict.items():
             if value > 1:
-                ret_value = True
+                return True
         
-        return ret_value
+        return False
