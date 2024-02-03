@@ -3,7 +3,9 @@
 1) Create your own branch and make a folder in your own branch using your preferred name 
 
 2) Push your own solutions from weekly problems list on the group discord
+  
    https://neetcode.io/roadmap
+
 
 3) Watch neetcode video solutions
    
