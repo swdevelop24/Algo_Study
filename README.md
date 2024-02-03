@@ -9,7 +9,7 @@
 
 3) Watch neetcode video solutions
    
-4) Discuss problems on Friday live meeting on the study group live server
+4) Discuss problems on Friday live meeting on the study group live server.
    Compare your solutions with others and provide suggestions if possible
   
-5) Read a summary on the group notion page
+6) Read a summary on the group notion page.
