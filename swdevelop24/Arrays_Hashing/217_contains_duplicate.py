@@ -7,8 +7,13 @@ Time Complexity -> O(1)
 3. If different, duplicate number(s) exist(s) => returns true 
 '''
 
-from collections import defaultdict 
-
 class Solution(object):
     def containsDuplicate(self, nums):
         return len(set(nums))!= len(nums)
+    
+
+
+
+
+
+
