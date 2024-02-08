@@ -1,5 +1,6 @@
+# Time complexity: O(w * nlog(n)) where w is the number of words , n is the longest word
+# Space complexity: O(wn)
 def groupAnagrams(wordlist):
-    # Write your code here.
     anagrams = {}
     for word in wordlist:
         curr_word = "".join(sorted(word))
