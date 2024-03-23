@@ -1,0 +1,53 @@
+'''
+Brute Force
+class Solution:
+    def twoSum(self, numbers: list[int], target: int) -> list[int]:
+    
+        start =0
+        ans=[]
+        while start < len(numbers): 
+            next = start+1
+            while next < len(numbers):   
+                current = numbers[start] + numbers[next]
+                if current == target:
+                    ans = [start+1, next+1]
+                    return ans 
+                elif current < target:
+                    next+=1
+            
+            start+=1 
+        if len(ans) == 0: 
+            ans = [-1]
+        return ans
+'''
+class Solution:
+    def twoSum(self, numbers: list[int], target: int) -> list[int]:
+        
+        start = 0
+        end = len(numbers)-1
+        ans =[]
+        
+        while start < end:
+            goal = numbers[start] + numbers[end] 
+            if goal == target: 
+                ans.append(start+1)
+                ans.append(end+1)
+                return ans
+            elif goal < target:
+                start+=1
+            elif goal > target:
+                end -=1
+               
+        ans=[-1]
+        return ans
+          
+
+
+
+sol = Solution()
+print(sol.twoSum([2,7,11,15], 9))
+print(sol.twoSum([2,3,4], 6))
+print(sol.twoSum([-1,0],-1))
+
+
+        
